@@ -1,0 +1,50 @@
+#pricing {
+  text-align: center;
+}
+
+#pricing .card {
+  padding: 30px;
+}
+
+#pricing h3 {
+  margin-bottom: 10px;
+}
+
+#pricing h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.button-group {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* Push rules button to right */
+.right-btn {
+  margin-left: auto;
+}
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+/* BUTTON STYLE */
+.top-btn {
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.top-btn:hover {
+    background: #555;
+}
